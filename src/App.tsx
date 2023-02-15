@@ -1,10 +1,14 @@
 import React from 'react';
-import './app.css'
+import './style.css';
+
 const App = () => {
+const num = 6;
+let h =9;
+
 return (
 <div>
- <h1>React webpack template</h1>
-</div>
+ <h1> hi React webpack template - {process.env.NODE_ENV} {process.env.name} </h1>
+ </div>
  )
 }
 
